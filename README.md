@@ -26,7 +26,8 @@
 - Sau đó:
  - 1: `git clone https://github.com/giaquy208/http-flood.git`
  - 2: `cd http-flood`
- - 3: `go httpflood.go`
+ - 3: `go build httpflood.go`
+ - 4: `./httpflood`
 - Định dạng tiêu đề.txt:
 - 1 Accept: text/html 2 User-agent: Wget 3 Referer: http://google.com
 - Hoặc bất kỳ thứ gì khác của tiêu đề http. Nếu bạn không biết gì về điều này, vui lòng chỉ sử dụng "nil" để sử dụng tiêu đề ngẫu nhiên mặc định.
